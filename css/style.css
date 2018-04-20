@@ -5,19 +5,19 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #cccccc;
+    background-color: #DFC6EC;
 }
 
 #board div {
     width: 10px;
     height: 10px;
-    border: 1px solid #cccccc;
+    border: 1px solid #DFC6EC;
     background-color: #ffffff;
     float: left;
 }
 
 #board div.live {
-    background-color: #000000;
+    background-color: #251236;
 }
 
 #board {
@@ -29,4 +29,29 @@ body {
 #game-menu {
     margin: 50px auto;
     width: auto;
+}
+
+#game-set {
+  text-align: center;
+  padding-top: 50px;
+}
+
+button {
+  width: 100px;
+  height: 40px;
+  border-radius: 15px;
+  border: 1px solid #251236;
+  background: #fff;
+  color: #251236;
+  font-size: 16px;
+}
+
+button:hover {
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+button:focus{
+  outline: none;
+  background-color: #251236;
+  color: #fff;
 }
